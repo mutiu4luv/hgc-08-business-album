@@ -27,6 +27,8 @@ import nd from "../../assets/nd.jpeg";
 import smooth from "../../assets/smooth.jpeg";
 import barrister from "../../assets/barrister.jpeg";
 import solution from "../../assets/solution.jpeg";
+import shot from "../../assets/2shot.jpeg";
+import temple from "../../assets/temple.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -183,6 +185,39 @@ const BusinessCard = () => {
         "Private Driving Services (Sharp_Concept)",
       ],
       phone: " 08068195976 ",
+      // email: "donatuspatrickakuchie1992@gmail.com",
+    },
+    {
+      id: 13,
+      name: "   Kelechi wisdom Ngerem (aka 2shot)",
+      description:
+        "I am a skilled plumber specializing in all types of plumbing services, including piping installation and the fixing of various plumbing accessories. I also repair leaking GP (GeePee) water tanks with precision. Trust me with your plumbing needs, and you’ll experience quality service you can confidently recommend.",
+      owner: "   Kelechi wisdom Ngerem ",
+      image: shot,
+      services: [
+        "Plumbing Services",
+        "Piping Installation",
+        "Repair of Water Tanks",
+      ],
+      phone: " 08068195976 ",
+      // email: "donatuspatrickakuchie1992@gmail.com",
+    },
+    {
+      id: 14,
+      name: "   NNADI UGWUNNA TEMPLE",
+      description:
+        "I am a professional welder specializing in a wide range of metal fabrication services. From tank stands, security doors (including bulletproof options), gates, railings, and window protectors to custom metal works—I've got you covered. Quality craftsmanship, durability, and customer satisfaction are my top priorities. Trust me to deliver metalwork solutions that are strong, secure, and built to last. You're truly in safe hands.",
+      owner: "   Kelechi wisdom Ngerem ",
+      image: temple,
+      services: [
+        "Welding Tank Stand Fabrication",
+        "Security Doors (including Bulletproof Doors)",
+        "Staircase and Balcony Rails",
+        "Window Protectors",
+        "General Metal Welding & Fabrication",
+        "General Metal Welding & Fabrication",
+      ],
+      phone: " 08061611881 ",
       // email: "donatuspatrickakuchie1992@gmail.com",
     },
   ];
