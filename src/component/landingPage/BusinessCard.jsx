@@ -20,6 +20,9 @@ import mutiu from "../../assets/mutiu.jpeg";
 import apoatle from "../../assets/apoatle.jpeg";
 import santiago from "../../assets/santiago.jpeg";
 import agams from "../../assets/agams.jpeg";
+import king from "../../assets/king.jpeg";
+import junior from "../../assets/junior.jpeg";
+import tochi from "../../assets/tochi.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -77,6 +80,43 @@ const BusinessCard = () => {
       services: ["buying and selling of mobile phones", "accessories"],
       phone: " 07038583328 ",
       email: "Agamscchidi@gmail.com ",
+    },
+    {
+      id: 6,
+      name: "KINGDAVID ONUOHA UGOCHUKWU ",
+      description:
+        "i'm a skilled Building Electrical Engineer with expertise in designing, installing, and maintaining electrical systems for residential, commercial, and industrial structures. Committed to delivering safe, efficient, and code-compliant solutions tailored to each project's unique needs.",
+      owner: "KINGDAVID ONUOHA UGOCHUKWU ",
+      image: king,
+      services: ["BUILDING ELECTRICAL ENGINEERING"],
+      phone: " 08067906005 ",
+      email: "davidonuoha6005@gmail.com ",
+    },
+    {
+      id: 7,
+      name: "Chiedozie Lawrence junior  ",
+      description:
+        "Specialist in the sales of all kinds of building materials, proudly serving customers from Naze Timber Market, Owerri  your trusted source for quality construction supplies.",
+      owner: "Chiedozie Lawrence junior  ",
+      image: junior,
+      services: ["BUILDING MATERIALS SALES"],
+      phone: " 08039184412 ",
+      email: "Ichiedozie@yahoo.com",
+    },
+    {
+      id: 8,
+      name: "Egbujor Tochukwu  ",
+      description:
+        "I specialize in building construction with a focus on premium aluminum works  including all types of windows and doors such as frameless doors, toilet doors, casement windows, and swing doors. For quality craftsmanship and solid finishing, contact me today and let’s bring strength and style to your building.",
+      owner: "Egbujor Tochukwu  ",
+      image: tochi,
+      services: [
+        "Aluminum Window Installation ",
+        "Building Finishing with Aluminum Solutions",
+        "Residential & Commercial Aluminum Works",
+      ],
+      phone: " 07043774871 ",
+      email: "egbujortochukwu01@gmail.com",
     },
   ];
 
