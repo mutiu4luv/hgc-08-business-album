@@ -29,6 +29,7 @@ import barrister from "../../assets/barrister.jpeg";
 import solution from "../../assets/solution.jpeg";
 import shot from "../../assets/2shot.jpeg";
 import temple from "../../assets/temple.jpeg";
+import azaman from "../../assets/azaman.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -219,6 +220,23 @@ const BusinessCard = () => {
       ],
       phone: " 08061611881 ",
       // email: "donatuspatrickakuchie1992@gmail.com",
+    },
+    {
+      id: 15,
+      name: "    Nwaiwu chijioke Nnamdi ",
+      description:
+        "I specialize in the supply of high-quality POP cement and related materials for all your interior finishing needs. In addition, I am actively involved in the real estate sector, offering trusted services in the buying and selling of land and landed properties. Whether you're building or investing, I provide reliable solutions tailored to your needs.",
+      owner: "    Nwaiwu chijioke Nnamdi ",
+      image: azaman,
+      services: [
+        "Supply of POP cement and finishing materials",
+        "Real estate consultancy",
+        "investment advisory (landed properties)",
+        "Wholesale and retail of interior decoration materials",
+        "Property sourcing and inspection assistance",
+      ],
+      phone: " 07031510573",
+      email: " clintonkelvin543@gmail.com ",
     },
   ];
 
