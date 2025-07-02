@@ -24,6 +24,9 @@ import king from "../../assets/king.jpeg";
 import junior from "../../assets/junior.jpeg";
 import tochi from "../../assets/tochi.jpeg";
 import nd from "../../assets/nd.jpeg";
+import smooth from "../../assets/smooth.jpeg";
+import barrister from "../../assets/barrister.jpeg";
+import solution from "../../assets/solution.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -134,7 +137,53 @@ const BusinessCard = () => {
         "Sales of Building Materials",
       ],
       phone: " 07043774871 ",
-      email: "egbujortochukwu01@gmail.com",
+    },
+    {
+      id: 10,
+      name: "Okike Uchechi Ugochukwu(Mr Smooth)  ",
+      description:
+        "I’m a passionate musician and master of ceremonies (MC) with a talent for bringing events to life through vibrant live band performances and engaging hosting. In addition to my entertainment services, I’m actively involved in farming and livestock rearing, offering healthy, well-sized chickens and goats for sale.Whether you're planning a wedding, party, or special event, I provide a one-stop event solution including live band music, MC services, professional ushers, and catering  all delivered with excellence and reliability.Your satisfaction is our top priority  reach out today and let’s make your event unforgettable!",
+      owner: "Okike Uchechi Ugochukwu(Mr Smooth)  ",
+      image: smooth,
+      services: [
+        "Live Band Performances",
+        "Master of Ceremonies (MC) Services",
+        "Event Planning & Coordination",
+      ],
+      phone: " 07060663597 ",
+      // email: "egbujortochukwu01@gmail.com",
+    },
+    {
+      id: 11,
+      name: "Akuchie Donatus Obilor (aka barrister)   ",
+      description:
+        "I am a skilled structural engineer and professional carpenter, specializing in the design and creation of custom furniture to suit every style and space. In addition to carpentry, I offer expert installation of all types of aluminum roofing profiles, including stone-coated tiles, step tiles, metro coppo, and long span sheets.You can find my office at Chapter 1 Bus Stop, Orogwe, Owerri West LGA.Let’s bring your building and roofing projects to life with precision and quality craftsmanship.",
+      owner: "Akuchie Donatus Obilor ",
+      image: barrister,
+      services: [
+        "Structural Engineering ",
+        "Custom Furniture Design & Carpentry",
+        "Roofing Consultation & Supply",
+        "Interior & Exterior Finishing Solutions",
+      ],
+      phone: " 08066202930 ",
+      email: "donatuspatrickakuchie1992@gmail.com",
+    },
+
+    {
+      id: 12,
+      name: "    Anyanwu Chibuike.J. (aka Solution)",
+      description:
+        "I am a part-time Electrical Engineer and currently serve as an Administrative Staff at Christian International School  a nurturing environment where godly children are raised with strong values and academic excellence.We welcome you to enroll your children with us.📍 Location: Plot 14, Dick-Tick Street, off MCC Road by Methodist Bus Stop, Owerri.In addition, we offer reliable driving services under our brand, Sharp_Concept.",
+      owner: "    Anyanwu Chibuike.J. ",
+      image: solution,
+      services: [
+        "Administrative Support Services",
+        "Electrical Engineering (Part-time)",
+        "Private Driving Services (Sharp_Concept)",
+      ],
+      phone: " 08068195976 ",
+      // email: "donatuspatrickakuchie1992@gmail.com",
     },
   ];
 
