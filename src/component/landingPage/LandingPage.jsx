@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import BusinessCard from "./BusinessCard";
+import { Box, Container, Typography } from "@mui/material";
 
 const LandingPage = () => {
   return (
@@ -14,11 +15,19 @@ const LandingPage = () => {
         </div>
       </main>
       <BusinessCard />
-      <footer className="bg-gray-800 text-white text-center py-4">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Holy Ghost College 08 Set. All
-          rights reserved.
-        </p>
+      <footer>
+        <Box sx={{ bgcolor: "red", color: "white", py: 3 }}>
+          <Container maxWidth="md">
+            <Typography
+              variant="body2"
+              align="center"
+              sx={{ fontWeight: 500, letterSpacing: 0.5 }}
+            >
+              &copy; {new Date().getFullYear()}{" "}
+              <strong>Holy Ghost College 08 Set</strong>. All rights reserved.
+            </Typography>
+          </Container>
+        </Box>
       </footer>
     </div>
   );
