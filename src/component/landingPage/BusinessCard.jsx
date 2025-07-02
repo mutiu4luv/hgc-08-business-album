@@ -23,6 +23,7 @@ import agams from "../../assets/agams.jpeg";
 import king from "../../assets/king.jpeg";
 import junior from "../../assets/junior.jpeg";
 import tochi from "../../assets/tochi.jpeg";
+import nd from "../../assets/nd.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -118,6 +119,23 @@ const BusinessCard = () => {
       phone: " 07043774871 ",
       email: "egbujortochukwu01@gmail.com",
     },
+    {
+      id: 9,
+      name: "Ndubuisi Izunobi Stephen ",
+      description:
+        "I specialize in the sales of quality building and plumbing materials, including water heaters, Cisco pipes, Niger pipes, and a wide variety of shower kits—such as WC units and bathtubs.You can find me at 143 Tetlow Road, Owerri.",
+      owner: "Ndubuisi Izunobi Stephen ",
+      image: nd,
+      services: [
+        "Sales of Plumbing Materials",
+        "Water Heaters Supply",
+        "Shower Kits (WC Units, Bath Tubs, etc.)",
+        "Bathroom Fittings & Accessories",
+        "Sales of Building Materials",
+      ],
+      phone: " 07043774871 ",
+      email: "egbujortochukwu01@gmail.com",
+    },
   ];
 
   const filteredBusinesses = businesses.filter((biz) =>
@@ -173,7 +191,7 @@ const BusinessCard = () => {
                 >
                   <CardMedia
                     component="img"
-                    height="180"
+                    height="350"
                     image={business.image}
                     alt={business.name}
                     sx={{ objectFit: "cover" }}
