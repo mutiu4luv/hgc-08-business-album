@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import BusinessCard from "./BusinessCard";
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Divider, Link, Typography } from "@mui/material";
 
 const LandingPage = () => {
   return (
@@ -25,6 +25,30 @@ const LandingPage = () => {
             >
               &copy; {new Date().getFullYear()}{" "}
               <strong>Holy Ghost College 08 Set</strong>. All rights reserved.
+            </Typography>
+
+            <Divider sx={{ my: 2, bgcolor: "white", opacity: 0.3 }} />
+
+            <Typography
+              variant="caption"
+              align="center"
+              display="block"
+              sx={{ mt: 1 }}
+            >
+              Designed by <strong>Madu Chibueze Emmanuel (Mutiu)</strong>
+              <br />
+              📞{" "}
+              <Link href="tel:07031911306" color="inherit" underline="hover">
+                07031911306
+              </Link>{" "}
+              | ✉️{" "}
+              <Link
+                href="mailto:chidiemmamadu@gmail.com"
+                color="inherit"
+                underline="hover"
+              >
+                chidiemmamadu@gmail.com
+              </Link>
             </Typography>
           </Container>
         </Box>
