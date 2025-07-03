@@ -13,8 +13,13 @@ import {
   IconButton,
   Container,
   Button,
+  Pagination,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+
+// Import all image assets
 import ebuka from "../../assets/ebuka.jpeg";
 import mutiu from "../../assets/mutiu.jpeg";
 import apoatle from "../../assets/apoatle.jpeg";
@@ -45,6 +50,11 @@ import iyke from "../../assets/iyke.jpeg";
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
   const [expandedId, setExpandedId] = useState(null);
+  const [page, setPage] = useState(1);
+
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+  const cardsPerPage = isSmallScreen ? 10 : 21;
 
   const businesses = [
     {
@@ -410,7 +420,7 @@ const BusinessCard = () => {
       id: 23,
       name: "Oluigbo Mario  ",
       description:
-        "I'm a professional real estate consultant, coach, and trainer, dedicated to equipping realtors with effective client engagement strategies that lead to swift and successful business transactions. I specialize in identifying fast-developing, affordable areas with high investment return potential, providing clients with timely insights, investment guidance, and full support through the documentation process.OLUIGBO MARIO CEO — @marstarz_properties Managing Director — @pwan_exquisite, an affiliate of the PWAN GroupOffice: Mr Empowerment Ultra Modern Training Center, Miriam Babangida Drive, Asaba.",
+        "I'm a professional real estate consultant, coach, and trainer, dedicated to equipping realtors with effective client engagement strategies that lead to swift and successful business transactions. I specialize in identifying fast-developing, affordable areas with high investment return potential, providing clients with timely insights, investment guidance, and full support through the documentation process.OLUIGBO MARIO CEO — @marstarz_properties Managing Director  @pwan_exquisite, an affiliate of the PWAN Group My Office is: Mr Empowerment Ultra Modern Training Center, Miriam Babangida Drive, Asaba.",
 
       owner: " Oluigbo Mario",
       image: oluigbo,
@@ -495,8 +505,18 @@ const BusinessCard = () => {
     )
   );
 
+  const totalPages = Math.ceil(filteredBusinesses.length / cardsPerPage);
+  const paginatedBusinesses = filteredBusinesses.slice(
+    (page - 1) * cardsPerPage,
+    page * cardsPerPage
+  );
+
   const toggleReadMore = (id) => {
     setExpandedId((prevId) => (prevId === id ? null : id));
+  };
+
+  const handlePageChange = (_, value) => {
+    setPage(value);
   };
 
   return (
@@ -506,7 +526,10 @@ const BusinessCard = () => {
           label="Search by Service"
           variant="outlined"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setPage(1); // reset to first page on new search
+          }}
           sx={{ width: "100%", maxWidth: 400 }}
           InputProps={{
             endAdornment: (
@@ -521,8 +544,8 @@ const BusinessCard = () => {
       </Box>
 
       <Grid container spacing={3}>
-        {filteredBusinesses.length > 0 ? (
-          filteredBusinesses.map((business) => {
+        {paginatedBusinesses.length > 0 ? (
+          paginatedBusinesses.map((business) => {
             const isExpanded = expandedId === business.id;
             const shortText = business.description.length < 120;
 
@@ -547,7 +570,6 @@ const BusinessCard = () => {
                     alt={business.name}
                     sx={{ objectFit: "cover" }}
                   />
-
                   <CardContent
                     sx={{
                       flexGrow: 1,
@@ -558,7 +580,6 @@ const BusinessCard = () => {
                     <Typography variant="h6" gutterBottom>
                       {business.name}
                     </Typography>
-
                     <Typography
                       variant="body2"
                       color="text.secondary"
@@ -571,7 +592,6 @@ const BusinessCard = () => {
                     >
                       {business.description}
                     </Typography>
-
                     {!shortText && (
                       <Button
                         size="small"
@@ -643,6 +663,17 @@ const BusinessCard = () => {
           </Typography>
         )}
       </Grid>
+
+      {totalPages > 1 && (
+        <Box mt={4} display="flex" justifyContent="center">
+          <Pagination
+            count={totalPages}
+            page={page}
+            onChange={handlePageChange}
+            color="primary"
+          />
+        </Box>
+      )}
     </Container>
   );
 };
