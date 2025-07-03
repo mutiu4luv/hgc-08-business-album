@@ -39,6 +39,7 @@ import peacemaker from "../../assets/peacemaker.jpeg";
 import biggy from "../../assets/biggy.jpeg";
 import emma from "../../assets/emma.jpeg";
 import oluigbo from "../../assets/oluigbo.jpeg";
+import udochukwu from "../../assets/udochukwu.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -424,6 +425,25 @@ const BusinessCard = () => {
     },
     {
       id: 24,
+      name: "Udochukwu Chibuzo Nonso  ",
+      description:
+        "I am an experienced Environmental Consultant, specializing in services such as Environmental Impact Assessments (EIA) and Environmental Audits (EA). I also deal in and market a wide range of pesticides and herbicides for effective fumigation and agricultural use.In addition, I’m your trusted plug for solar energy solutions, including solar panel supply, batteries, accessories, and professional installation — delivering clean, reliable, and sustainable power systems tailored to your needs.",
+
+      owner: "Udochukwu Chibuzo Nonso",
+      image: udochukwu,
+      services: [
+        "Environmental Impact Assessments (EIA)",
+        "Environmental Audits (EA)",
+        "Pesticide and herbicide supply",
+        "Fumigation services",
+        "Agricultural consulting",
+        "Solar energy solutions",
+      ],
+      phone: "  08068181095 ",
+      email: " chibuzoudochukwu8080@gmail.com",
+    },
+    {
+      id: 25,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
