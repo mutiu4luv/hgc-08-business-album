@@ -67,6 +67,7 @@ const BusinessCard = () => {
       owner: "Apostle Engr Chinedu Onyiriagha",
       image: apoatle,
       services: ["Building Engineering", "Pop Materials", "Pop Installation"],
+      phone: "08064168746",
     },
     {
       id: 4,
@@ -202,7 +203,7 @@ const BusinessCard = () => {
         "Piping Installation",
         "Repair of Water Tanks",
       ],
-      phone: " 08068195976 ",
+      phone: " 07032825281 ",
       // email: "donatuspatrickakuchie1992@gmail.com",
     },
     {
@@ -257,6 +258,23 @@ const BusinessCard = () => {
       phone: " 07037129800 ",
       // email: " clintonkelvin543@gmail.com ",
     },
+    // {
+    //   id: 17,
+    //   name: "   Emerenini victor ugochukwu, AKA ( Dictionary) ",
+    //   description:
+    //     " specialize in block manufacturing and real estate services. For high-quality vibrated blocks and genuine landed properties, feel free to contact me—reliable service is just a call away.",
+    //   owner: "    Emerenini victor ugochukwu ",
+    //   image: dictionary,
+    //   services: [
+    //     "Production of Vibrated Blocks",
+    //     "Real estate Services",
+    //     "Sales of High-Quality Building Blocks",
+    //     "Buying and Selling of Landed Properties",
+    //     "Property Consultation",
+    //   ],
+    //   phone: " 07037129800 ",
+    //   // email: " clintonkelvin543@gmail.com ",
+    // },
   ];
 
   const filteredBusinesses = businesses.filter((biz) =>
