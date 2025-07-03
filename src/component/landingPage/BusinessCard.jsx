@@ -40,6 +40,7 @@ import biggy from "../../assets/biggy.jpeg";
 import emma from "../../assets/emma.jpeg";
 import oluigbo from "../../assets/oluigbo.jpeg";
 import udochukwu from "../../assets/udochukwu.jpeg";
+import iyke from "../../assets/iyke.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -444,6 +445,32 @@ const BusinessCard = () => {
     },
     {
       id: 25,
+      name: "Ngoka Ikechukwu Kennedy   ",
+      description:
+        "I'm proudly from Owerri North, Imo State, and I specialize in all kinds of roofing from stone tiles to aluminium roofing systems, with expert water collection installations to match. I also offer professional site supervision for all types of building projects.In addition to my construction expertise, I work at Nnamdi Azikiwe University, giving me direct insight and support for undergraduate and postgraduate admissions.Need trusted roofing or guidance on gaining admission into UNIZIK? Let’s make it happen reach out today!",
+
+      owner: "Ngoka Ikechukwu Kennedy",
+      image: iyke,
+      services: [
+        "All types of roofing installations (stone tiles, aluminium, etc.)",
+        "Water collection system installations",
+
+        "Nnamdi Azikiwe University (UNIZIK) admission guidance",
+        "Undergraduate and postgraduate admission support",
+        "Roofing consultation and support",
+
+        "Roofing maintenance and repair",
+        "Roofing design and planning",
+        "Site inspection and assessment",
+        "Roofing project supervision",
+        "Roofing installation training",
+        "Roofing project documentation",
+      ],
+      phone: "   07035344443 ",
+      email: " ngokaikechukwu2@gmail.com",
+    },
+    {
+      id: 26,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
