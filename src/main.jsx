@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import LandingPage from "./component/landingPage/LandingPage";
-import { CssBaseline } from "@mui/material";
+import App from "./App"; // ← Import App, not LandingPage
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CssBaseline />
-
-    <LandingPage />
+    <App /> {/* ← Render App */}
   </React.StrictMode>
 );

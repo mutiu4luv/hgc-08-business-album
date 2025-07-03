@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Header from "../Header";
 import BusinessCard from "./BusinessCard";
 import { Box, Container, Divider, Link, Typography } from "@mui/material";
+import { ColorModeContext } from "../../App"; // Adjust path if needed
 
 const LandingPage = () => {
+  const colorMode = useContext(ColorModeContext);
+
   return (
     <div>
-      <Header />
+      <Header toggleColorMode={colorMode.toggleColorMode} />
       <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
         <div className="text-center p-6">
           <h1 className="text-4xl font-bold text-blue-700 mb-4">

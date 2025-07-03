@@ -38,6 +38,7 @@ import shoe from "../../assets/shoe.jpeg";
 import peacemaker from "../../assets/peacemaker.jpeg";
 import biggy from "../../assets/biggy.jpeg";
 import emma from "../../assets/emma.jpeg";
+import oluigbo from "../../assets/oluigbo.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -405,6 +406,24 @@ const BusinessCard = () => {
     },
     {
       id: 23,
+      name: "Oluigbo Mario  ",
+      description:
+        "I'm a professional real estate consultant, coach, and trainer, dedicated to equipping realtors with effective client engagement strategies that lead to swift and successful business transactions. I specialize in identifying fast-developing, affordable areas with high investment return potential, providing clients with timely insights, investment guidance, and full support through the documentation process.OLUIGBO MARIO CEO — @marstarz_properties Managing Director — @pwan_exquisite, an affiliate of the PWAN GroupOffice: Mr Empowerment Ultra Modern Training Center, Miriam Babangida Drive, Asaba.",
+
+      owner: " Oluigbo Mario",
+      image: oluigbo,
+      services: [
+        "Property Sourcing: Identifying fast-developing and affordable locations with high ROI.",
+        "Investment Advisory: Helping clients make smart, long-term property investments.",
+        "Client Guidance: Offering step-by-step support throughout the property purchase process.",
+        "Due Diligence: Verifying documents and ensuring land/property is free from government acquisition or disputes.",
+        "Real Estate Training: Coaching realtors on effective client engagement and transaction strategies.",
+      ],
+      phone: "  07064567651 ",
+      email: " oluigboirenaeus@gmail.com",
+    },
+    {
+      id: 24,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
