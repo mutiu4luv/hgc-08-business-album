@@ -37,6 +37,7 @@ import dan from "../../assets/dan.jpeg";
 import shoe from "../../assets/shoe.jpeg";
 import peacemaker from "../../assets/peacemaker.jpeg";
 import biggy from "../../assets/biggy.jpeg";
+import emma from "../../assets/emma.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -62,7 +63,7 @@ const BusinessCard = () => {
       owner: "Madu Chibueze Emmanuel (Mutiu Software Solutions)",
       image: mutiu,
       services: ["Website Development", "Full-stack Development", "Web Design"],
-      phone: "07031911306",
+      phone: "+2347031911306",
       email: "chidiemmamadu@gmail.com",
     },
     {
@@ -367,6 +368,26 @@ const BusinessCard = () => {
     },
     {
       id: 22,
+      name: " Emmaco Aluminum Roofer   ",
+      description:
+        "I specialize in supplying and installing aluminum roofing sheets, including long span, stone-coated, and step tiles. I also handle skeletal roof structures. In addition, I supply building materials like granites (chippings) and sand, delivered directly to your site. I'm also into real estate, helping clients buy and sell genuine landed properties. Quality service and customer satisfaction are my priority.",
+
+      owner: " Emmanuel Chinedu Anyanwu ",
+      image: emma,
+      services: [
+        "Aluminum roofing sheet supply and installation",
+        "Stone-coated, long span, and step tile roofing",
+        "Skeletal roof structure construction",
+        "Supply of building materials (granites, chippings, sand)",
+        "Real estate (buying and selling of genuine landed properties)",
+        "Site delivery of materials",
+        "Roofing consultation and support",
+      ],
+      phone: "  +2348068803393 ",
+      email: "emmynedu21@gmail.com",
+    },
+    {
+      id: 23,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
