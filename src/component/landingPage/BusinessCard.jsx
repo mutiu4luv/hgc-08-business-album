@@ -31,6 +31,12 @@ import shot from "../../assets/2shot.jpeg";
 import temple from "../../assets/temple.jpeg";
 import azaman from "../../assets/azaman.jpeg";
 import dictionary from "../../assets/dictionary.jpeg";
+import donb from "../../assets/donb.jpeg";
+import uchenna from "../../assets/uchenna.jpeg";
+import dan from "../../assets/dan.jpeg";
+import shoe from "../../assets/shoe.jpeg";
+import peacemaker from "../../assets/peacemaker.jpeg";
+import biggy from "../../assets/biggy.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -258,23 +264,125 @@ const BusinessCard = () => {
       phone: " 07037129800 ",
       // email: " clintonkelvin543@gmail.com ",
     },
-    // {
-    //   id: 17,
-    //   name: "   Emerenini victor ugochukwu, AKA ( Dictionary) ",
-    //   description:
-    //     " specialize in block manufacturing and real estate services. For high-quality vibrated blocks and genuine landed properties, feel free to contact me—reliable service is just a call away.",
-    //   owner: "    Emerenini victor ugochukwu ",
-    //   image: dictionary,
-    //   services: [
-    //     "Production of Vibrated Blocks",
-    //     "Real estate Services",
-    //     "Sales of High-Quality Building Blocks",
-    //     "Buying and Selling of Landed Properties",
-    //     "Property Consultation",
-    //   ],
-    //   phone: " 07037129800 ",
-    //   // email: " clintonkelvin543@gmail.com ",
-    // },
+    {
+      id: 17,
+      name: " UCHE TRUST ROOFING CO.  ",
+      description:
+        " I specialize in comprehensive roofing and structural finishing solutions.My expertise spans all forms of roofing woodwork, including the precision crafting and installation of aluminum zinc panels, stone-coated tiles, and other advanced roofing systems tailored for both residential and commercial buildings.Beyond roofing, I offer expert water connector installations to ensure proper drainage and plumbing integration. I am also highly skilled in furniture production, delivering custom-designed, durable, and elegant furniture pieces for homes, offices, and interior projects.When you hire me, you're choosing a seasoned professional committed to excellence, durability, and aesthetic value in every project.",
+      owner: "    IBEAWUCHI UCHENNA DANIEL ",
+      image: uchenna,
+      services: [
+        "Roofing Woodwork (Framing & Carpentry)",
+        "Aluminum Zinc Panel Installation",
+        "Stone-Coated Tile Roofing",
+        "Water Connector Installation",
+        "Furniture Production (Custom Designs)",
+        "Structural Finishing",
+        "Residential & Commercial Roofing Solutions",
+        "Interior & Exterior Furniture Solutions",
+      ],
+      phone: " 08138511111 ",
+      email: " danieluchenna942@gmail.com ",
+    },
+    {
+      id: 18,
+      name: " Timothy nwachukwu (DON B) ",
+      description:
+        "I am a seasoned entrepreneur with a strong foothold in two thriving industries. I specialize in the sale of high-quality O.K. (Okrika) bales, offering a wide variety of premium second-hand clothing, shoes, and accessories sourced to meet diverse customer needs and fashion tastes. Whether you re a retailer or an end-user, I provide reliable and affordable options to keep you looking your best.In addition to my fashion business, I also run a professional industrial cleaning service. My team and I handle large-scale cleaning for offices, commercial buildings, schools, churches, event halls, and more. We pride ourselves on delivering top-tier sanitation using modern tools, eco-friendly cleaning agents, and attention to detail—ensuring a sparkling and hygienic environment every time.Let us keep your space clean and your wardrobe refreshed with unmatched dedication and excellence.",
+      owner: "    Timothy nwachukwu ",
+      image: donb,
+      services: [
+        "Wholesale & retail of premium O.K. clothing bales",
+        "O.K shoes, bags, and accessories",
+        "Office and corporate space cleaning",
+        "Post-construction cleaning",
+        "Industrial and commercial cleaning",
+        "Event hall and venue cleaning",
+        "School and educational institution cleaning",
+        "Church and religious institution cleaning",
+      ],
+      phone: " 08067994293 ",
+      email: " Clintonjoe600@gmail.com ",
+    },
+    {
+      id: 19,
+      name: "  Daniel ikechukwu Azuka ",
+      description:
+        "I am a certified Electrical Engineer with hands-on expertise in the installation, maintenance, and troubleshooting of residential, commercial, and industrial electrical systems. I specialize in the setup and configuration of electrical equipment, power distribution, and energy-saving solutions.Additionally, I am proficient in solar power installation, offering complete solar system design and integration, including inverters, solar panels, and battery banks. I help homes and businesses transition to clean, reliable, and cost-effective renewable energy. I am committed to delivering safe, durable, and efficient electrical and solar solutions tailored to your energy needs.",
+
+      owner: "  Daniel ikechukwu Azuka ",
+      image: dan,
+      services: [
+        "Electrical System Installation",
+        "Electrical Maintenance & Troubleshooting",
+        "Solar Power System Design & Installation",
+        "Energy Efficiency Consulting",
+        "Residential & Commercial Electrical Solutions",
+      ],
+      phone: " 07066973188 ",
+      email: " Danielikechukwuazuka@gmail.com",
+    },
+    {
+      id: 20,
+      name: " Somachi Christopher oparaugo ",
+      description:
+        "I hail from Obinze in Owerri West Local Government Area of Imo State. I am a passionate and experienced commercial farmer, with a thriving piggery and a small-scale fish farm, dedicated to providing healthy and sustainable livestock and fish to meet market demand.In addition to agriculture, I specialize in landed property services within Imo State, offering trusted assistance in buying, selling, and managing real estate.I also serve as a site supervisor and property caretaker, ensuring projects are executed with precision and properties are well-maintained.Furthermore, I provide professional security services for events — guaranteeing the safety and orderliness of your occasions, from start to finish.With a solid reputation for dependability and excellence, I am committed to delivering value across agriculture, real estate, property management, and event security.",
+
+      owner: " Somachi Christopher oparaugo ",
+      image: shoe,
+      services: [
+        "Piggery and fish farming",
+        "Landed property services",
+        "Site supervision and property caretaking",
+        "Event security services",
+      ],
+      phone: " 09132351105 ",
+      email: " Oparaugochrisd@gmail.com",
+    },
+    {
+      id: 21,
+      name: "  Uchenna Frankline Uzoma (biggy) ",
+      description:
+        "I am a bouncer, I am an electrician for both condict and surface wiring and installation of all kinds of electrical fittings and Thunder Protector. CCtv cameras and DStv installations.I am also a native traditional doctor. Any kind of spiritual problem carry amm come. I give harbal medicine for any kind of sickness. Even if you get HIV, there is hope for you",
+
+      owner: "Uchenna Frankline Uzoma ",
+      image: biggy,
+      services: [
+        "Conduit and surface wiring",
+        "Installation of all types of electrical fittings",
+        "Thunder protector installation",
+        "CCTV camera installation",
+        "DStv installation",
+        "Native spiritual consultations and solutions for various issues",
+        "Herbal treatment for various ailments and chronic conditions",
+        "Specialized herbal care for conditions such as HIV, typhoid, malaria, and more",
+        "Spiritual cleansing and protection services",
+        "Traditional medicine for spiritual and physical ailments",
+        "Professional bouncer services for events, clubs, and private functions",
+        "Electrical Engineering and Installation",
+        "Spiritual Consultation and Herbal Medicine",
+      ],
+      phone: "   07038314009  ",
+      email: "ucheuzoma44@gmail.com ",
+    },
+    {
+      id: 22,
+      name: " Peace Maker Surgical Enterprises.  ",
+      description:
+        "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
+
+      owner: " Chibuzo Ozurumba ",
+      image: peacemaker,
+      services: [
+        "Sales of hospital instruments and equipment",
+        "Supply of laboratory materials and reagents",
+        "Distribution of school science lab tools (Biology, Chemistry, Physics)",
+        "Equipment consultation and sourcing",
+        "Delivery of ordered items to hospitals, schools, and labs",
+      ],
+      phone: "  07066333918 ",
+      email: "peacemakersurgical@gmail.com",
+    },
   ];
 
   const filteredBusinesses = businesses.filter((biz) =>
