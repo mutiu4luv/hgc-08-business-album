@@ -46,6 +46,8 @@ import emma from "../../assets/emma.jpeg";
 import oluigbo from "../../assets/oluigbo.jpeg";
 import udochukwu from "../../assets/udochukwu.jpeg";
 import iyke from "../../assets/iyke.jpeg";
+import vincient from "../../assets/vincient.jpeg";
+import chinemerem from "../../assets/chinemerem.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -54,7 +56,7 @@ const BusinessCard = () => {
 
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
-  const cardsPerPage = isSmallScreen ? 10 : 21;
+  const cardsPerPage = isSmallScreen ? 50 : 100;
 
   const businesses = [
     {
@@ -481,6 +483,57 @@ const BusinessCard = () => {
     },
     {
       id: 26,
+      name: "Anyalemechi Vincent  chijindu    ",
+      description:
+        "I am a certified Electrical Technician with expertise in both conduit and surface wiring for residential, commercial, and industrial buildings. I handle the professional installation of all types of electrical fittings, including switches, sockets, lighting systems, and distribution boards.In addition, I specialize in the installation of surge protection systems (thunder protectors) to safeguard your home or facility from lightning strikes and electrical damage.My services also extend to modern security and energy solutions, including CCTV camera setup for surveillance and solar power installation—covering solar panels, inverters, and battery systems for clean, reliable electricity. Whether you’re working on a new project or upgrading your existing electrical setup, I deliver safe, durable, and code-compliant electrical solutions tailored to your needs.",
+
+      owner: "Anyalemechi Vincent  chijindu    ",
+      image: vincient,
+      services: [
+        "All types of electrical installations (residential, commercial, industrial wiring)",
+        "Conduit and surface wiring",
+        "Installation of electrical fittings (switches, sockets, lighting, distribution boards)",
+        "Surge protection system installation (thunder protectors)",
+        "CCTV camera installation for security",
+        "Solar power installation (solar panels, inverters, battery systems)",
+        "New Building Electrical Setup",
+        "",
+      ],
+
+      phone: "   07033536056  ",
+      email: "  chijinduvincent91@gmail.com",
+    },
+
+    {
+      id: 27,
+      name: " chinemerem Peter Ekwubiri   ",
+      description:
+        "I am a skilled specialist in all forms of ornamental and precast work, offering both interior and exterior decorative solutions that enhance the beauty and value of any building. My expertise includes the design, molding, and installation of high-quality precast features such as columns, balustrades, wall panels, ceiling roses, cornices, and more. Whether it's a residential home, commercial complex, church, or hotel, I provide elegant finishing touches that bring architectural character and style to life. From classical to modern designs, I tailor each project to meet your aesthetic goals while ensuring durability and precision. If you're looking to add charm, prestige, or a touch of artistry to your building project, I’m the professional to call.",
+
+      owner: " chinemerem Peter Ekwubiri     ",
+      image: chinemerem,
+      services: [
+        "Ornamental Precast Design & Installation (Columns, balustrades, cornices, etc.)",
+        "Interior Decorative Finishing (Ceiling roses, wall panels, artistic moldings)",
+        "Exterior Architectural Enhancements (Gate pillars, parapet molds, decorative trims)",
+        "Custom Molding and Casting",
+        "Building Beautification & Aesthetic Upgrade",
+        "Consultation on Building Decoration Ideas",
+        "Project Management for Decorative Works",
+        "Residential, Commercial, and Institutional Projects",
+        "Restoration and Repair of Precast Features",
+        "Collaboration with Architects and Builders",
+
+        "Customer Satisfaction Guarantee",
+        "Post-Installation Support and Maintenance",
+        "Interior and Exterior Design Consultation",
+      ],
+
+      phone: "   07033536056  ",
+      email: "  chijinduvincent91@gmail.com",
+    },
+    {
+      id: 28,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
