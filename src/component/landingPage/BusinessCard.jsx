@@ -529,8 +529,8 @@ const BusinessCard = () => {
         "Interior and Exterior Design Consultation",
       ],
 
-      phone: "   07033536056  ",
-      email: "  chijinduvincent91@gmail.com",
+      // phone: "   07033536056  ",
+      // email: "  chijinduvincent91@gmail.com",
     },
     {
       id: 28,
