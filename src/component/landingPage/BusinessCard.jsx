@@ -497,7 +497,6 @@ const BusinessCard = () => {
         "CCTV camera installation for security",
         "Solar power installation (solar panels, inverters, battery systems)",
         "New Building Electrical Setup",
-        "",
       ],
 
       phone: "   07033536056  ",
