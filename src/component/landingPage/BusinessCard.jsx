@@ -675,6 +675,20 @@ const BusinessCard = () => {
                     }}
                   >
                     <Typography variant="h6" gutterBottom>
+                      <span
+                        className="business-id"
+                        aria-label={`Business ID: ${business.id}`}
+                        role="img"
+                        title={`Business ID: ${business.id}`}
+                        data-testid={`business-id-${business.id}`}
+                        style={{
+                          fontSize: "1.5rem",
+                          fontWeight: "bold",
+                          color: "red",
+                        }}
+                      >
+                        {business.id}. <span></span>
+                      </span>
                       {business.name}
                     </Typography>
                     <Typography
