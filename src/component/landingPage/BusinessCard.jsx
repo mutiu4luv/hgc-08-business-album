@@ -48,6 +48,8 @@ import udochukwu from "../../assets/udochukwu.jpeg";
 import iyke from "../../assets/iyke.jpeg";
 import vincient from "../../assets/vincient.jpeg";
 import chinemerem from "../../assets/chinemerem.jpeg";
+import kemas from "../../assets/kemas.jpeg";
+import armstrong from "../../assets/armstrong.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -74,7 +76,7 @@ const BusinessCard = () => {
       id: 2,
       name: "Mutiu Software Solutions",
       description:
-      "i'm a passionate and results-driven full-stack web developer with a strong background in building dynamic, responsive, and user-friendly websites. With expertise in both frontend and backend technologies, I craft seamless digital experiences from concept to deployment. Specializing in tools like React, Node.js, Express, MongoDB, and Material-UI, I build applications that are not only visually appealing but also powerful under the hood. I am committed to clean code, scalable architecture, and delivering real-world solutions that solve problems and add value. Whether it's developing user interfaces, implementing RESTful APIs, integrating payment systems like Paystack, or managing authentication and database operations, I bring dedication, creativity, and technical excellence to every project. In addition to software development, I am also actively involved in real estate—offering trusted services in property sourcing, buying, and selling.",
+        "i'm a passionate and results-driven full-stack web developer with a strong background in building dynamic, responsive, and user-friendly websites. With expertise in both frontend and backend technologies, I craft seamless digital experiences from concept to deployment. Specializing in tools like React, Node.js, Express, MongoDB, and Material-UI, I build applications that are not only visually appealing but also powerful under the hood. I am committed to clean code, scalable architecture, and delivering real-world solutions that solve problems and add value. Whether it's developing user interfaces, implementing RESTful APIs, integrating payment systems like Paystack, or managing authentication and database operations, I bring dedication, creativity, and technical excellence to every project. In addition to software development, I am also actively involved in real estate—offering trusted services in property sourcing, buying, and selling.",
       owner: "Madu Chibueze Emmanuel (Mutiu Software Solutions)",
       image: mutiu,
       services: [
@@ -533,6 +535,49 @@ const BusinessCard = () => {
     },
     {
       id: 28,
+      name: " Victor nwanne  ",
+      description:
+        "Am a business developer, Administrator,humanitarian social crusader an ambassador for peace,  sales representative with Nigerian Bottling company. I can assist you setup your warehouse or assist become a distributor with Coca-Cola Also available for bulk supplies of our products for all your events, programs ",
+
+      owner: " Victor nwanne",
+      image: kemas,
+      services: [
+        "Business development consultancy",
+        "Administrative support and operations",
+        "Humanitarian and social advocacy",
+        "Peace ambassadorial services",
+        "Sales representation (Nigerian Bottling Company - Coca-Cola)",
+        "Warehouse setup and distribution onboarding (Coca-Cola)",
+        "Distributor onboarding assistance (Coca-Cola)",
+        "Bulk supply of Coca-Cola products for events and programs",
+        "Corporate and event beverage logistics",
+      ],
+      phone: "  08136745069 ",
+      email: "victornwanne2020@gmail.com",
+    },
+    {
+      id: 29,
+      name: "Irechukwu Ifeanyi Armstrong  ",
+      description:
+        "I'm a seasoned banker with a strong background in finance, client service, and organizational management. Beyond the banking hall, I’m a tech-savvy entrepreneur specializing in CCTV installation and cybersecurity services — helping homes, schools, businesses, and organizations stay secure and protected in today’s digital world. In addition to my security expertise, I run a thriving business in premium children's fashion, popularly known as 'Okirika'. I curate and sell high-quality pre-loved clothes for children ranging from newborns (day-old) to teenagers (up to 15 years old). Each piece is carefully selected for comfort, durability, and style — making quality fashion affordable for every parent. Whether you need financial insight, tech-based security for your property, or trendy kids' clothing at unbeatable prices, I bring passion, professionalism, and value to every service I offer.",
+
+      owner: " Irechukwu Ifeanyi Armstrong ",
+      image: armstrong,
+      services: [
+        "Banking and financial consulting",
+        "CCTV installation services",
+        "Cybersecurity advisory and implementation",
+        "Sales of premium-quality children's clothing (Okirika)",
+        "Clothing for newborns to 15-year-olds",
+        "Tech security for homes, offices, and schools",
+        "Procurement of affordable and stylish kids' wear",
+        "Advisory on digital protection and surveillance solutions",
+      ],
+      phone: "  07062965919",
+      email: " anyitex38@gmail.com",
+    },
+    {
+      id: 30,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
