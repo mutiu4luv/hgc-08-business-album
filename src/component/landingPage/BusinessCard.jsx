@@ -269,7 +269,7 @@ const BusinessCard = () => {
       name: "   NNADI UGWUNNA TEMPLE",
       description:
         "I am a professional welder specializing in a wide range of metal fabrication services. From tank stands, security doors (including bulletproof options), gates, railings, and window protectors to custom metal works—I've got you covered. Quality craftsmanship, durability, and customer satisfaction are my top priorities. Trust me to deliver metalwork solutions that are strong, secure, and built to last. You're truly in safe hands.",
-      owner: "   Kelechi wisdom Ngerem ",
+      owner: "   NNADI UGWUNNA TEMPLE ",
       image: temple,
       services: [
         "Welding Tank Stand Fabrication",
@@ -280,7 +280,7 @@ const BusinessCard = () => {
         "General Metal Welding & Fabrication",
       ],
       phone: " 08061611881 ",
-      // email: "donatuspatrickakuchie1992@gmail.com",
+      email: "asylumtempleoffavour@gmail.com",
     },
     {
       id: 15,
