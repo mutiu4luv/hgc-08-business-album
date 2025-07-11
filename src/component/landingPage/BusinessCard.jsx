@@ -50,6 +50,7 @@ import vincient from "../../assets/vincient.jpeg";
 import chinemerem from "../../assets/chinemerem.jpeg";
 import kemas from "../../assets/kemas.jpeg";
 import armstrong from "../../assets/armstrong.jpeg";
+import okeke from "../../assets/okeke.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -595,6 +596,29 @@ const BusinessCard = () => {
     },
     {
       id: 30,
+      name: " Okeke Kelechi Barnabas.  ",
+      description:
+        "A seasoned banker and financial analyst, currently serving as the Transaction Services Supervisor and Unit Head, Customer Service at GTBank, Ikwerre Road Branch. Known for delivering exceptional client experiences and driving operational efficiency in the banking sector. ",
+
+      owner: "Okeke Kelechi Barnabas",
+      image: okeke,
+      services: [
+        "Banking Operations",
+        "Customer Service Management",
+        "Financial Analysis",
+        "Transaction Supervision",
+        "Retail Banking Solutions",
+        "Client Relationship Management",
+        "Cash and Funds Management",
+        "Account Opening & Documentation",
+        "Problem Resolution & Escalation",
+        "Service Quality Monitoring",
+      ],
+      phone: "  07062473320 ",
+      email: "okekekelechichib@gmail.com",
+    },
+    {
+      id: 31,
       name: " Peace Maker Surgical Enterprises.  ",
       description:
         "I'm  the CEO of Peace Maker Surgical Enterprises. We deal on all kinds of hospital instruments/equipments, Laboratory Materials/reagents, all types of School laboratory materials etc.Such as BP monitors, sugar machines, crutches and wheel chairs etc.Head Address: No 98 Kez plaza, opposite Rotobi By Douglas Road Owerri.Branch Address: Block B72 Rescue Mission Plaza Relief Market Owerri. ",
